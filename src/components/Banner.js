@@ -20,17 +20,9 @@ const Banner = () => {
         <div className="row">
           <div className="col-6">
             <div className="header__content">
+            
               <div className="header__section">
-                <h1>
-                  {state.title}
-                </h1>
-                <p>{state.text}</p>
-                <ul className="header__ul">
-                  <li>
-                  <a href="https://www.facebook.com/mahesh.kadambala.7/">
-                    <FaFacebookF className="headerIcon" />
-                    </a>
-                  </li>
+              <ul className="header__ul">
                   <li>
                     <a href="https://github.com/iammahesh123">
                     <FaGithub className="headerIcon" />
@@ -52,6 +44,11 @@ const Banner = () => {
                     </a>
                   </li>
                 </ul>
+                <h1>
+                  {state.title}
+                </h1>
+                <p>{state.text}</p>
+
                 <div>
               
                 </div>
