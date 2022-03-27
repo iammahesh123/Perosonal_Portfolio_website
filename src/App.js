@@ -6,7 +6,7 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Prices from "./components/Prices";
 import Contact from "./components/Contact";
-import Resume from './components/Resume';
+
 
 function App() {
   return (
