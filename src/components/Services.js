@@ -11,7 +11,7 @@ import {
   FaProjectDiagram,
   FaAmazon,
 } from "react-icons/fa";
-import { Fade } from 'react-reveal';
+const Fade = require("react-reveal/Fade")
 const Services = () => {
   const [header] = React.useState({
     mainHeader: "SKILLS",

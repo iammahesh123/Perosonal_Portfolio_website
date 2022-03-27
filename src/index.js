@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Fade from 'react-reveal'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

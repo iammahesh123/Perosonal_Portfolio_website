@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from 'react-reveal';
+const Fade = require("react-reveal/Fade")
 const Prices = () => {
   const [header] = React.useState({
     mainHeader: "Projects",
