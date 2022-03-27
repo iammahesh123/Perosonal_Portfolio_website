@@ -1,4 +1,4 @@
-import fade from "fade";
+import fade from "react-reveal";
 import React from "react";
 import {
   FaGithub,
