@@ -6,12 +6,13 @@ import {
   FaGithub,
   FaInstagram,
 } from "react-icons/fa";
+import Typical from "react-typical"
 const Banner = () => {
   const [state] = React.useState({
     title: "I am Mahesh ",
     text:
-      "I,m mahesh, freelancing android developer with good UI design \
-     along with full stack development in this field​.",
+      "Hi myself mahesh, freelancing android developer with UI design \
+     with full stack development.",
     image: "/images/",
   });
   return (
@@ -46,8 +47,17 @@ const Banner = () => {
                 </ul>
                 <h1>
                   {state.title}
+                  
                 </h1>
-                <p>{state.text}</p>
+
+                <p>
+                  {state.text}
+                  <Typical loop={Infinity}
+                  steps={["B.tech student",1000,"Android Developer",1000,"Frontend Developer",1000,"Full Stack Developer",1000]}/>
+                  </p>
+                <p>
+                
+                </p>
 
                 <div>
               

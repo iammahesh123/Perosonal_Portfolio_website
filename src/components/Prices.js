@@ -121,6 +121,7 @@ const Prices = () => {
                 </div>
               </div>
             </div>
+            
 
         </div>
         </Fade>
