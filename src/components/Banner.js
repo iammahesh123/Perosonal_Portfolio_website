@@ -53,7 +53,7 @@ const Banner = () => {
                 <p>
                   {state.text}
                   <Typical loop={Infinity}
-                  steps={["B.tech student",1000,"Android Developer",1000,"Frontend Developer",1000,"Full Stack Developer",1000]}/>
+                  steps={["B.tech student ",1000,"Android Developer",1000,"Frontend Developer",1000,"Full Stack Developer",1000]}/>
                   </p>
                 <p>
                 
