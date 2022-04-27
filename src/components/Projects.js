@@ -121,7 +121,65 @@ const Prices = () => {
                   </div>
                 </div>
               </div>
-
+              <div className="col-4">
+                <div className="price">
+                  <div className="priceHeading">Home Loan Assistant</div>
+                  <div className="price__rs">
+                    Learnt
+                  </div>
+                  <ul>
+                    <li>Java awt</li>
+                    <li>Event Handling</li>
+                    <li>Java Exception Handling</li>
+                    <li>Java Layouts</li>
+                  </ul>
+                  <div className="price__btn">
+                    <a href="https://github.com/iammahesh123/LoanAssistant" className="btn btn-outline">
+                      Project Link
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="price">
+                  <div className="priceHeading">Home Inventory Management System</div>
+                  <div className="price__rs">
+                    Learnt
+                  </div>
+                  <ul>
+                    <li>Java Swings</li>
+                    <li>File Handling</li>
+                    <li>Event Handling</li>
+                    <li>Java Exception Handling</li>
+                    <li>Java Layouts</li>
+                  </ul>
+                  <div className="price__btn">
+                    <a href="https://github.com/iammahesh123/Inventory-Management" className="btn btn-outline">
+                      Project Link
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="price">
+                  <div className="priceHeading">Social Network website</div>
+                  <div className="price__rs">
+                    Learnt
+                  </div>
+                  <ul>
+                    <li>PHP</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>website hosting</li>
+                  </ul>
+                  <div className="price__btn">
+                    <a href="https://github.com/iammahesh123/simple-social-media-website" className="btn btn-outline">
+                      Project Link
+                    </a>
+                  </div>
+                </div>
+              </div>
 
             </div>
           </Fade>
